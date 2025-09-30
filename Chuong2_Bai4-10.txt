@@ -1,0 +1,75 @@
+4.
+kiểu dữ liệu cơ bản:
+-integer
+-complex
+-float
+-boolean
+-string
+5.
+ ghi chú dòng đơn sử dụng ký tự # và ghi chú đa dòng,thường là các chuỗi ký tự nhiều dòng
+ (docstrings) được bao quanh bởi ba dấu nháy đơn hoặc ba dấu nháy kép, được sử dụng để mô
+ tả hàm, lớp hoặc module.
+6.
+-"/" chia 2 giá trị số
+-"//" chia lấy nguyên
+-"%"chia lấy dư
+-"**" mũ
+-and kiểm tra 2 biểu thức đúng hay không
+-or 1 trong hay biểu thức đúng hay ko
+-not đảo ngược chân trị
+7.
+biến = kiểu dữ liệu(input())
+8.
+lỗi cú pháp syntax error
+lỗi thực thi runtime error
+lỗi ngữ nghĩa semantic error
+cách bắt lỗi 
+-lỗi cú pháp xem lỗi dòng nào sửa lại lỗi dòng đó
+-lỗi thực thi kiểm tra mã nguồn và sử dụng try Except
+-lỗi ngữ nghĩa debug từng bước
+9.
+(a) i1 + (i2 * i3)
+2+(5*-3)=-13
+(b) i1 * (i2 + i3)
+2*(5+-3)=4
+(c) i1 / (i2 + i3)
+2/(2)=1
+(d) i1 // (i2 + i3)
+2//(2)=1 lấy nguyên
+(e) i1 / i2 + i3
+2/5+-3=0.4+-3=-2.6
+(f) i1 // i2 + i3
+2//5+-3=0-3=-3
+(g) 3 + 4 + 5 / 3
+3+4+1.6666...=8.66666
+(h) 3 + 4 + 5 // 3
+3+4+5//3=3+4+1=8
+(i) (3 + 4 + 5) / 3
+12/3=4
+(j) (3 + 4 + 5) // 3
+12/3=4
+(k) d1 + (d2 * d3)
+2.0 + (-2.5) = -0.5
+(l) d1 + d2 * d3
+2.0 + (-2.5) = -0.5
+(m) d1 / d2 - d3
+0.4 - (-0.5) = 0.9
+(n) d1 / (d2 - d3)
+2.0 / 5.5 = 0.363636...
+(o) d1 + d2 + d3 / 3
+2.0 + 5.0 + (-0.1666...) = 6.8333...
+(p) (d1 + d2 + d3) / 3
+6.5 / 3 = 2.1666...
+(q) d1 + d2 + (d3 / 3)
+2.0 + 5.0 = 7.0
+7.0 + (-0.1666...) = 6.8333...
+(r) 3 * (d1 + d2) * (d1 - d3)
+3 * 7.0 * 2.5 = 52.5
+10.
+(a) x += 1
+(b) x /= 2
+(c) x -= 1
+(d) x += y
+(e) x -= (y + 7)
+(f) x *= 2
+(g) number_of_closed_cases += 2 * ncc
